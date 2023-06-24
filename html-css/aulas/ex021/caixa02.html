@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body {
+      margin: 0;
+      background-image: linear-gradient(to right, rgb(62, 64, 64), rgb(116, 114, 108), rgb(73, 79, 73));
+      background-attachment: fixed;
+      background-attachment: fixed;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: darkslategray;
+      box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.37);
+    }
+
+    header > nav > a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 15px 50px;
+    }
+
+    header > nav > a:hover {
+      background-color: rgb(81, 170, 170);
+    }
+
+    main {
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.335);
+    }
+
+    main > section > article {
+      background-color: lightgray;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    main > section > article > aside {
+      background-color: darkslateblue;
+      color: white;
+      padding: 10px;
+      border-radius: 50px 20px;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer > p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+  </header>
+  <main>
+    <section id="assuntos">
+      
+    </section>
+    <section id="noticias">
+      <article>
+        <h2>Notícias sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aperiam optio. Est sit unde deleniti quibusdam quasi. Aperiam dolore nesciunt incidunt libero eligendi quaerat delectus, et eveniet voluptatibus voluptates dolor. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores laudantium dolore ab, aut illum voluptates harum tenetur et nesciunt, itaque eaque sequi minus sed ducimus obcaecati facere molestiae, enim temporibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque aspernatur minima sequi officiis, eius obcaecati id consectetur culpa maxime vel sunt accusamus necessitatibus reiciendis in nostrum voluptas nobis laudantium ratione consequatur repudiandae veritatis sapiente! Fuga, cum obcaecati distinctio pariatur, laudantium temporibus corrupti culpa tempora ratione omnis molestiae quis eius corporis perferendis, et iure quasi tempore magni nobis? Est necessitatibus maxime saepe facere voluptate totam eos, quas possimus! Neque alias minus accusamus corporis magni illo, quo consequuntur doloribus. Ea aspernatur unde tempore quibusdam neque quod qui, distinctio voluptas repudiandae velit dolorum autem molestias repellat. Consequatur soluta dolores corrupti voluptates reprehenderit velit.</p>
+        <aside>Artigo escrito por Carlos</aside>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por Cristian Rossi</p>
+  </footer>
+</body>
+</html>

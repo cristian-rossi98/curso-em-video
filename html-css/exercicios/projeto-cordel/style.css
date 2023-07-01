@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Pragati+Narrow:wght@700&family=Roboto+Condensed:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Kalam:wght@700&family=Pragati+Narrow:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 7%;
+}
+
+h1 {
+  font-family: 'Caprasimo', sans-serif;
+  font-size: 8vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  display: inline-block;
+  padding: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 10% 5%;
+  line-height: 2em;
+  font-size: 3.5vw;
+  font-family: Kalam;
+}
+
+#img-1 {
+  background: black url('img/background001.jpg') right center no-repeat fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 25px 3px rgba(0, 0, 0, 0.556);
+}
+
+#img-2 {
+  background: black url('img/background002.jpg') right center no-repeat fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 25px 3px rgba(0, 0, 0, 0.556);
+}
+
+#img-1 p, #img-2 p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.400);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+}

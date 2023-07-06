@@ -43,11 +43,27 @@ iframe {
 }
 
 #socials {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
-  background-color: red;
-  width: 200px;
-  height: 200px;
+#socials img {
+  display: block;
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.376);
+  box-sizing: border-box;
+}
+
+#socials img:hover {
+  transform: scale(115%);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.52);
+  transition: 0.3s;
+}
+
+#socials img:active {
+  transform: scale(98%);
+  transition: 0.3s;
 }
